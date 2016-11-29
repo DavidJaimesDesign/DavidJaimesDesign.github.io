@@ -1,0 +1,66 @@
+body,html{
+  max-width:940px;
+  height: 100%;
+  margin:auto;
+}
+.container{
+  width:100%;
+}
+.header{
+  background-color: red;
+  width:100%;
+}
+.headA{
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10px;
+  width:100%;
+  height: 60px;
+}
+.headA-lg{
+  font-size: 2em;
+}
+ .headA-sm{
+  font-size: 1.4em;
+}
+
+
+.intro, .future{
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+}
+.intro-heading,.future-head{
+  text-align: center;
+  font-size: 2em;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.intro-about, .future-about{
+  width:70%;
+  font-size: 1.2em;
+  margin:auto;
+}
+.intro-about p{
+  margin-top: 10px;
+}
+.date{
+  font-size: 0.6em;
+}
+@media (max-width: 425px){
+  .headA{
+    height:90px;
+  }
+  .headA-sm{
+    display:block;
+  }
+  .intro-about, .future-about{
+    width:95%;
+  }
+
+  }
+
+@media (min-width: 426px) and (max-width:750px){
+  .intro-about{
+    width:80%;
+  }
+}
