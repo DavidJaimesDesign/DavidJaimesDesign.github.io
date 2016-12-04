@@ -1,68 +1,166 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>repl.it</title>
-        <script src="index.js"></script>
-        <link href="main.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-      <div class="container">
-        <div class="header">
-          <div class="headA">
-            <span class="headA-lg">Red Pandas</span> 
-            <span class="headA-sm">Learning Backend</span>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio Pen</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>David Jaimes Design- A portfolio</title>
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    <link href="css/grayscale.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i> <span class="light">Start</span> 
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
-      </div>
-        
-   <div class="intro">
-        <div class="intro-heading">
-          <span>Welcome to David's  Page</span>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">David Jaimes Design</h1>
+                        <p class="intro-text">A Portfolio</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="intro-about">
-          <span class="date">11/29/16</span>
-          <p>
-            I have a hodgepodge of experience in the backend. I know Ruby and a tad bit of Rails. I have some experience with SQL dbs mostly running queries from the commandline. That is why I am jumping intot the backend portion of FCC since the data viz sectio does not offer much in terms of guides, and I am not worthy yet.
-            
-          </p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>About David</h2>
+                <p>I was born in Bogota Colombia, I grew up in Canada, I went to college in the States, now I live in Los Angeles.</p>
+                <p>I have experience with Ruby and some SQL(MySQL and Postgres)</p>
+                <p>I am currently working through FreeCodeCamps curriculum and hope to become a full stack developer soon. I have recently finished my front-end certificate. I am now working on the BackEnd certificate,</p>
+            </div>
         </div>
-        
-      </div>
-      <!-- ******************** -->
-    <!-- Each time you need to update copy the below section and paste it underneath this section and fill in -->
-        <div class="intro">
-        <div class="intro-heading">
-          <span>Next update</span>
+    </section>
+
+    <!-- Download Section -->
+    <section id="portfolio" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2>My Portfolio</h2>
+                    <p>Here are some of the projects that I am most proud of as well as a link to my Github profile:</p>
+                    <a href="https://github.com/DavidJaimesDesign" class="btn btn-default btn-lg">Github</a>
+                </div>
+            </div>
         </div>
-        <div class="intro-about">
-          <span class="date">11/29/16</span>
-          <p>
-         I am currently working through the EdX MondoDB Mean Stack course and the thenewboston's youtube series on learning Node.js.
-            
-          </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact DJD</h2>
+                <p>Feel free to email me with any questions you might have, sage advice, or just to say hello!</p>
+                <p><a href="mailto:davidjaimesdesign@gmail.com">davidjaimesdesign@gmail.com</a>
+                </p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">LinkedIn</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/DavidJaimesDesign" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.freecodecamp.com/davidjaimesdesign" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">FreeCodeCamp</span></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        
-      </div>
-      
-    <!-- ******************** -->
-    
-    
-    <!-- Each time you need to update copy the below section and paste it underneath this section and fill in -->
-        <div class="intro">
-        <div class="intro-heading">
-          <span>EDX MongoDB Mean Stack Course update</span>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; David Jaimes 2016</p>
         </div>
-        <div class="intro-about">
-          <span class="date">12/2/16</span>
-          <p>
-         	This course is great! So much better then learnyounode, since you are actually building something and there are code examples. The quizes are ok. What I like to do is if the lecture is covering something that is hard for me to grasp I will pull up the example code and copy it line by line. At least for me it helps me understand what is going on when I slow down and work on the code line by line. The homework is just tough enough where you have to think, but not have to slam your head on the keyboard. I really like it and would recomend to anyone tacklin the BackEnd cert.
-          </p>
-        </div>
-        
-      </div>
-    
-    
-      </div>
-    </body>
+    </footer>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+</body>
+
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
 </html>
