@@ -7,7 +7,7 @@ $(document).ready(function() {
     navigator.geolocation.getCurrentPosition(function(position){
       lat = position.coords.latitude.toFixed(2);
       lon = position.coords.longitude.toFixed(2);
-      var apiCall = "https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=6e0cecac33a36e163a298aa43dc9a0f8";
+      var apiCall = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&APPID=6e0cecac33a36e163a298aa43dc9a0f8";
       $.getJSON(apiCall,function(weather){
         var city     = weather.name;
         var forecast = weather.weather[0].description;
