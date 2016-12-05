@@ -14,7 +14,7 @@ $(document).ready(function() {
         var ktemp    = weather.main.temp;
         var ctemp    = (ktemp - 273.15).toFixed(0);
 				var ftemp    = (ktemp * (9/5) - 459.67).toFixed(0);
-				var icon 	   = 'http://openweathermap.org/img/w/' + weather.weather[0].icon + '.png';
+				var icon 	   = 'https://openweathermap.org/img/w/' + weather.weather[0].icon + '.png';
 				console.log(icon)
         $("#location").html(city)
 				$("#temp").html(ftemp + "°F")
