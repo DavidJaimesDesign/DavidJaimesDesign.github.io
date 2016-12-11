@@ -1,5 +1,6 @@
 //wiki search api: https://en.wikipedia.org/w/api.php?action=query&format=json&list=search&utf8=1&srsearch=potato+canon
 $(document).ready(function(){
+	$.ajaxSetup({ cache: false });	
 	$("#random").on('click',function(){window.location.href='https://en.wikipedia.org/wiki/Special:Random';})
 	$("#searchWiki").submit(function(q){
 		q.preventDefault();
