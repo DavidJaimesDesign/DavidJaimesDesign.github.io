@@ -4,6 +4,7 @@ $(document).ready(function(){
 	$("#random").on('click',function(){window.location.href='https://en.wikipedia.org/wiki/Special:Random';})
 	$("#searchWiki").submit(function(q){
 		q.preventDefault();
+		$(".entry").remove();
 		var queryRaw = $("#searchWiki").serializeArray();
 		var query = (queryRaw[0].value).replace(/ /g,"+");
 		$.ajax({
@@ -22,7 +23,7 @@ $(document).ready(function(){
 					var entryTitle   = dataArray[i].title;
 					var entrySnippet = dataArray[i].snippet;
 					var link         = "https://en.wikipedia.org/wiki/" + entryTitle;
-					var divAdd = ' <a href='+ link +'><div class="container"> <div class="row result top-buffer"> <div class="col-md"> <h4 class = "resultText col-md-3 top-buffer">' + entryTitle + '</h4> <p class = "resultText top-buffer">'+ entrySnippet +'</p></div> </div> </div> </div></a>'
+					var divAdd = '<div class = "entry">  <a href='+ link +'><div class="container"> <div class="row result top-buffer"> <div class="col-md"> <h4 class = "resultText col-md-3 top-buffer">' + entryTitle + '</h4> <p class = "resultText top-buffer">'+ entrySnippet +'</p></div> </div> </div> </div></a></div>'
 					$(divAdd).appendTo(".intro-body");
 				}
     			},
