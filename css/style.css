@@ -123,7 +123,7 @@ a:focus {
   	padding: 100px 0;
   	text-align: center;
   	color: white;
-  	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/79418935Carretera_nublada%2C_Parque_NacIonal_HenrI_Pittier.jpg/1024px-79418935Carretera_nublada%2C_Parque_NacIonal_HenrI_Pittier.jpg) no-repeat bottom center scroll;
+  	background: url(../public/forest.jpg) no-repeat bottom center scroll;
   	background-color: black;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -223,7 +223,7 @@ a:focus {
 	width: 100%;
 	padding: 50px 0;
 	color: white;
-	background: url(http://i.imgur.com/mli7Hy6.jpg) no-repeat center center scroll;
+	background: url(../public/downloads-bg.jpg) no-repeat center center scroll;
 	background-color: black;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
