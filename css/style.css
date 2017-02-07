@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 body {
   	height: 100%;
   	font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -47,6 +48,9 @@ a:hover,
 a:focus {
   	text-decoration: none;
   	color: #1d9b6c;
+}
+.top-buffer {
+  margin-top: 30px;
 }
 .light {
   	font-weight: 400;
